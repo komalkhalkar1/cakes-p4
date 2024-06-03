@@ -1,0 +1,608 @@
+body {
+    background-color: black;
+    height: auto;
+}
+.note{
+    color: red;
+}
+.abc {
+    width: auto;
+    font-weight: 500;
+    font-size: 3rem;
+    background-color: pink;
+    color: brown;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    padding: 20px 0 20px 0;
+}
+
+#title {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.navbar-brand {
+    margin: 0;
+    padding-left: 50px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler {
+    border: none;
+    color: white;
+    font-size: 60px;
+}
+
+.collapse {
+    margin: 0;
+    position: relative;
+    padding-right: 50px;
+
+}
+
+.nav-item {
+    padding: 0 30px;
+}
+
+.heading {
+    color: white;
+    font-size: 100px;
+    padding-left: 50px;
+    margin: 0;
+
+}
+.insta-btn{
+    position: relative;
+    background-color: white;
+    left: 100px;
+    top: 50px;
+    color: black;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+}
+.titleImg {
+    height: 500px;
+    width: 500px;
+    margin: 0;
+    position: relative;
+    left: 100px;
+
+}
+
+
+
+/*testimonials-section*/
+.carousel-control-next {
+    padding-right: 0%;
+}
+
+.carousel-item {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+#Testimonials {
+    color: white;
+    background-color: #808080;
+    text-align: center;
+    padding: 50px 0px;
+    height: auto;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+
+}
+
+.testihead {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 40px 0 40px 0;
+    color: black;
+}
+
+em {
+    font-size: small;
+}
+
+/*****image corousel*****/
+
+.image-slider {
+    max-height: 500px;
+    width: 50%;
+    position: relative;
+    padding-left: 300px;
+    padding-bottom: 300px;
+}
+
+.carousel-inner {
+    max-width: 80%;
+    place-items: center;
+    left: 160px;
+    margin: 0;
+}
+
+.d-block {
+    height: 500px;
+    width: auto;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+/*special cakes*/
+hr {
+    visibility: hidden;
+}
+
+.spec {
+    border-radius: 100%;
+}
+
+#special-cakes {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.header {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: brown;
+    font-family: 'Great Vibes', cursive;
+    padding: 30px 0 30px 0;
+    margin-top: 50px;
+}
+
+.spe-inf {
+
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.grey {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.abacol {
+    width: auto;
+    padding: 20px 20px;
+}
+
+/******contact******/
+
+
+#contact {
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    height: 600px;
+}
+
+/************contat info******/
+
+.contact-info {
+    margin: 0;
+    padding-left: 50px;
+}
+
+.social-icon {
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: medium;
+    padding-left: 30px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 200px;
+}
+.end-foot{
+    position: relative;
+    top: 200px;
+}
+
+
+
+/****contact-card*******/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #cccccc;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+    height: fit-content;
+    width: 700px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.cus {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    color: #000000;
+    padding-left: 100px;
+
+}
+
+.submit {
+    width: 200px;
+    height: fit-content;
+    border: #000000;
+    padding-bottom: 10px;
+}
+
+.foot {
+    width: auto;
+    height: 700px;
+}
+
+
+/******cakes*******/
+.cakeHead{
+    color: #ccc;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+#cake-p{
+    margin-top: 50px;
+}
+.cake-page {
+    background-color: #000000;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    padding: 40px 30px;
+    background: #393e46;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+        6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
+        inset 6px 6px 20px rgba(0, 0, 0, 0, 0.05)
+}
+
+.card .imgBx {
+    position: relative;
+    text-align: center;
+
+}
+
+.card .imgBx img {
+    min-width: 200px;
+}
+
+.card .contentBx {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card .contentBx h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+.card .contentBx p {
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.card .contentBx a {
+    width: 200px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 40px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 1),
+        4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card .contentBx a:hover {
+    box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5),
+        inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card a:hover .span-2 {
+    display: block;
+    transform: scale(0.98);
+}
+
+.card:hover .imgBx,
+.card:hover .contentBx {
+    transform: scale(0.98);
+}
+
+.img {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 250px;
+    width: 250px;
+
+}
+
+
+/****************chocolates page*********************/
+#choco-catalogue{
+    position: relative;
+    margin-bottom: 50px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.ct-hd{
+    font-size: 2rem;
+    color: pink;
+    font-weight: 900;
+}
+
+.cim{
+    width: 350px;
+    height: 350px;
+}
+.choco-card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:350px ;
+    margin-bottom: 50px;
+  }
+  
+ 
+  .choco-card:hover {
+    box-shadow: 0 9px 18px rgba(233, 229, 229, 0.2);
+  }
+  
+  
+  .choco-container {
+    padding: 2px 16px;
+    text-align: center;
+
+  }
+  .choco-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  
+  .cim {
+    border-radius: 5px 5px 0 0;
+  }
+
+
+@media (max-width: 600px) {
+h3{
+    font-size: 2rem;
+}
+    h4 {
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        font-size: 3rem;
+        padding-right: 0;
+    }
+
+    .brand {
+        font-size: 1.2rem;
+    }
+.nav-item{
+    font-size: 2.5rem ;
+}
+    .heading {
+        font-size: 4rem;
+        padding-bottom: 30px;
+
+    }
+.insta-btn{
+    position: relative;
+}
+    .titleImg {
+        position: relative;
+        height: 400px;
+        width: 100%;
+        padding-right: 100px;
+        top: 200px;
+    }
+
+
+    .header {
+        padding: 0%;
+    }
+
+    hr {
+        visibility: visible;
+
+    }
+
+    /****img carousel****/
+    .carousel-inner {
+        max-width: 100%;
+        position: relative;
+        margin: 0;
+        left: 0%;
+    }
+
+    .image-slider {
+        max-height: auto;
+        width: 100%;
+    }
+
+    .d-block {
+        height: 500px;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+        position: relative;
+    }
+
+    /***************/
+
+
+    .col-10,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .test {
+        padding-bottom: 10px;
+
+    }
+
+    .testimonial-img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .carousel-item {
+        font-size: 2rem;
+        color: #000000;
+    }
+
+    .end-foot {
+        padding-top: 250px;
+        text-align: center;
+    }
+
+
+    /******contact container******/
+    .contact-container {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 2.5rem;
+        height: 700px;
+    }
+    .submit{
+        height: inherit;
+        font-size: 1.8rem;
+    }
+    /******cakes******
+    **/
+    .img {
+        min-height: 200px;
+        min-width: 100px;
+
+    }
+
+    .card .contentBx p {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 0px 0px;
+    }
+.imgBx{
+    padding-top: 20px;
+}
+.cakeHead{
+    font-size: large;
+}
+
+
+/****************chocolates page*********************/
+.ct-hd{
+    font-size: 1.5rem;
+    color: pink;
+    font-weight: 500;
+}
+
+.cim{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+}
